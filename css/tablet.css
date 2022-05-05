@@ -1,0 +1,30 @@
+@media screen and (min-width: 600px) {
+    .container-main {
+        padding: 2em 2em 2.8em 2em;
+    }
+
+    .container-table {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container-form-search__input {
+        width: 320px;
+    }
+
+    .container-section-add-person__title,
+    .container-section-list-people__title {
+        font-size: 1.2rem;
+    }
+
+    .container-label-form {
+        width: 48%;
+    }
+
+    .container-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
